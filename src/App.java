@@ -17,6 +17,15 @@ public class App {
         }
         System.out.println("This is a change");
 
+        boolean boolArray[][] = new boolean[1][];  
 
+        int i = 0;
+        int j = 0;
+        while (i <10) {
+            i++;
+            System.out.println(i);
+            j++;
+            System.out.println(j);
+        }
     }
 }
